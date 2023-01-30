@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="slf4j-api-1.7.23">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Log/slf4j-api-1.7.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Log/slf4j-nop-1.7.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
