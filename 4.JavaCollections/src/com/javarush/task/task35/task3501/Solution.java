@@ -10,5 +10,6 @@ public class Solution {
         System.out.println("Ghjdthrf");
         System.out.println("23332222");
         System.out.println("fwgg");
+        System.out.println("225");
     }
 }
