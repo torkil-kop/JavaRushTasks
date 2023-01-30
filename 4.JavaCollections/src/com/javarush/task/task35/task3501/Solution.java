@@ -9,5 +9,6 @@ public class Solution {
         Number number = (Number) GenericStatic.<Number>someStaticMethod(new Integer(3));
         System.out.println("Ghjdthrf");
         System.out.println("23332222");
+        System.out.println("fwgg");
     }
 }
