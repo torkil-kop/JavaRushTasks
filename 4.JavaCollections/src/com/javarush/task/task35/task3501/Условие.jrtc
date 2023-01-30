@@ -8,6 +8,6 @@ taskKey="com.javarush.task.task35.task3501"\n\nВызов статическог
 1.	Метод someStaticMethod в классе GenericStatic должен быть изменен в соответствии с условием задачи.
 2.	Метод someStaticMethod должен быть статическим.
 3.	Метод someStaticMethod должен быть публичным.
-4.	Метод someStaticMethod должен выводить данные на экран.
+4.	Метод someStaticMethod должен выводить данные на экран. +++
 
 
