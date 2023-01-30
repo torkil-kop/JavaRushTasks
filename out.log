@@ -21260,3 +21260,11 @@ com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize va
 2023-01-30 11:12:33 INFO  HttpsURLConnectionClient.getFilteredTasks(256) - responseCode = 200
 2023-01-30 11:13:14 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
 2023-01-30 11:13:14 INFO  HttpsURLConnectionClient.getFilteredTasks(256) - responseCode = 200
+2023-01-30 12:45:10 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2023-01-30 16:26:58 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-30 16:26:58 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-30 16:26:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-30 16:26:58 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-30 16:26:58 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-30 16:26:58 INFO  ApacheHttpClient.startGA(36) - GAService started.
