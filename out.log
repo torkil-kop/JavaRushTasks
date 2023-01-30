@@ -21254,3 +21254,9 @@ com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize va
 2023-01-30 10:52:11 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
 2023-01-30 10:52:11 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
 
+2023-01-30 11:12:33 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2023-01-30 11:12:33 INFO  HttpsURLConnectionClient.refreshUserInfo(828) - responseCode = 200
+2023-01-30 11:12:33 INFO  HttpsURLConnectionClient.refreshUserInfo(846) - User information received.
+2023-01-30 11:12:33 INFO  HttpsURLConnectionClient.getFilteredTasks(256) - responseCode = 200
+2023-01-30 11:13:14 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2023-01-30 11:13:14 INFO  HttpsURLConnectionClient.getFilteredTasks(256) - responseCode = 200
