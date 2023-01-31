@@ -21473,3 +21473,45 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2023-01-31 12:50:24 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 =======
 >>>>>>> master
+2023-01-31 15:18:30 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2023-01-31 15:18:30 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2023-01-31 15:18:30 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2023-01-31 15:18:31 INFO  ApacheHttpClient.logout(633) - Waiting for server response.
+2023-01-31 15:18:31 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2023-01-31 15:18:31 INFO  ApacheHttpClient.login(254) - responseCode = 200
+2023-01-31 15:18:31 INFO  ApacheHttpClient.login(277) - JSESSIONID OK
+2023-01-31 15:18:31 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2023-01-31 15:18:31 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2023-01-31 15:18:31 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2023-01-31 15:18:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:18:35 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 15:18:43 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 15:18:43 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :E:/Program/Java/Projects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task35/task3507
+2023-01-31 15:18:44 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :E:/Program/Java/Projects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task35/task3507/data
+2023-01-31 15:22:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:28:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:28:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 15:28:37 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 15:28:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 15:28:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:28:40 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 15:28:45 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 15:28:45 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :E:/Program/Java/Projects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task35/task3508
+2023-01-31 15:30:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:32:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:32:09 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 15:32:10 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 15:32:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 15:32:12 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:32:13 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 15:32:14 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2023-01-31 15:32:14 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :E:/Program/Java/Projects/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task35/task3511
+2023-01-31 15:34:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:36:00 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:36:01 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 15:36:01 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 15:38:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 15:38:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2023-01-31 15:38:53 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2023-01-31 15:38:53 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
