@@ -21462,3 +21462,11 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2023-01-31 12:47:39 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2023-01-31 12:47:57 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2023-01-31 12:48:01 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 12:50:10 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2023-01-31 12:50:10 INFO  ApacheHttpClient.logout(633) - Waiting for server response.
+2023-01-31 12:50:10 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2023-01-31 12:50:10 INFO  ApacheHttpClient.login(254) - responseCode = 200
+2023-01-31 12:50:10 INFO  ApacheHttpClient.login(277) - JSESSIONID OK
+2023-01-31 12:50:12 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 12:50:20 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2023-01-31 12:50:24 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
