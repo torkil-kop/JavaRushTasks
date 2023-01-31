@@ -21365,6 +21365,7 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2023-01-31 10:38:29 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2023-01-31 10:41:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2023-01-31 10:41:03 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+<<<<<<< HEAD
 2023-01-31 11:21:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2023-01-31 11:21:40 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2023-01-31 11:21:46 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
@@ -21470,3 +21471,5 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2023-01-31 12:50:12 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2023-01-31 12:50:20 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2023-01-31 12:50:24 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+=======
+>>>>>>> master
