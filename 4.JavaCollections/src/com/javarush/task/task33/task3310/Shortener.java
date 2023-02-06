@@ -23,7 +23,7 @@ public synchronized Long getId(String string){
     public synchronized String getString(Long id){
 
             return storageStrategy.getValue(id);
-
+       
     }
     /*
     3.5. Реализуй метод getString, он должен вернуть строку по заданному идентификатору (ключу).
