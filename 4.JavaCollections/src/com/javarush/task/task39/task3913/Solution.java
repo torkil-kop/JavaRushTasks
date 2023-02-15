@@ -1,13 +1,32 @@
 package com.javarush.task.task39.task3913;
 
 import java.nio.file.Paths;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.TreeSet;
 
 public class Solution {
     public static void main(String[] args) {
-        LogParser logParser = new LogParser(Paths.get("c:/logs/"));
-        System.out.println(logParser.getNumberOfUniqueIPs(null, new Date()));
+//        LogParser logParser = new LogParser(Paths.get("c:/logs/"));
+        LogParser logParser = new LogParser(Paths.get("e:/logs/"));
+  //      System.out.println(logParser.getNumberOfUniqueIPs(new Date(112, Calendar.AUGUST, 30, 16, 8, 13), new Date(113, Calendar.DECEMBER, 11, 10, 11, 12)));//11.12.2013 10:11:12
+ //       System.out.println(logParser.getUniqueIPs(null, new Date(112, Calendar.AUGUST, 30, 16, 8, 13)));// 30.08.2012 16:08:13
+//        System.out.println(logParser.getIPsForUser("Vasya Pupkin", null, null));
+        //System.out.println(logParser.getIPsForEvent(Event.WRITE_MESSAGE, null, null));
+//        System.out.println(logParser.getIPsForStatus(Status.ERROR, null, null));
+//       logParser.show();
+//        TreeSet<Date> dates = new TreeSet<>();
+//        dates.add(new Date(112, Calendar.AUGUST, 30, 16, 8, 13));
+//        dates.add(new Date(114, Calendar.AUGUST, 30, 16, 8, 13));
+//        dates.add(new Date(116, Calendar.AUGUST, 30, 16, 8, 13));
+//        dates.add(new Date(118, Calendar.AUGUST, 30, 16, 8, 13));
+//        dates.add(new Date(110, Calendar.AUGUST, 30, 16, 8, 13));
+//        dates.add(new Date(110, Calendar.AUGUST, 30, 16, 8, 10));
+//        System.out.println(dates.first());
+        System.out.println(logParser.execute("get status"));
+
     }
+
 }
 /*
 ip username date event status
