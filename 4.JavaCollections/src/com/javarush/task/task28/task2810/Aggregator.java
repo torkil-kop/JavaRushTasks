@@ -1,20 +1,27 @@
 package com.javarush.task.task28.task2810;
 
 import com.javarush.task.task28.task2810.model.HHStrategy;
+import com.javarush.task.task28.task2810.model.HabrCareerStrategy;
+import com.javarush.task.task28.task2810.model.Model;
 import com.javarush.task.task28.task2810.model.Provider;
+import com.javarush.task.task28.task2810.view.HtmlView;
+import com.javarush.task.task28.task2810.view.View;
 
 public class Aggregator {
     public static void main(String[] args) {
-        Provider provider = new Provider(null );
-        Controller controller = new Controller(provider);
-
-        controller.scan();
-
+        HtmlView view = new HtmlView();
+        Model model = new Model(view, new Provider(new HHStrategy()), new Provider(new HabrCareerStrategy()));
+        Controller controller = new Controller(model);
+        view.setController(controller);
+        view.userCitySelectEmulationMethod();
     }
 }
 /*
-5. В методе main() класса Aggregator:
-5.1. Создай провайдер. Поскольку реализации стратегии (Strategy) пока нет, то в конструктор провайдера передай null.
-5.2. Создай контроллер с этим провайдером.
-5.3. В методе main() выведи в консоль созданный экземпляр Controller-а.
+3. Для запуска нужно еще обновить метод main в Aggregator.
+3.1. Создай вью, модель, контроллер. Переменная для вью должна быть типа HtmlView. Модели нужен минимум один провайдер.
+3.2. Засэть во вью контроллер.
+3.3. Вызови у вью метод userCitySelectEmulationMethod.
+
+4. Запускай приложение! Подожди несколько секунд, чтобы выгреблись данные.
+Работает? Отлично, что работает!
  */
