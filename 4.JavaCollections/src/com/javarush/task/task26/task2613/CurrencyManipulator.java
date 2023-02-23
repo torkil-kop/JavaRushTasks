@@ -22,12 +22,22 @@ public class CurrencyManipulator {
             denominations.put(denomination, count);
         }
     }
+    public int getTotalAmount(){
+        int totalSum = 0;
+        for (Integer i: denominations.keySet()
+             ) {
+            totalSum +=i*denominations.get(i);
+        }
+        return totalSum;
+    }
+    public boolean hasMoney(){
+        return !denominations.isEmpty();
+    }
+
 }
 /*
-1. Создай класс CurrencyManipulator, который будет хранить всю информацию про выбранную валюту.
-Класс должен содержать:
-1.1 String currencyCode - код валюты, например, USD. Состоит из трех букв.
-1.2 Map<Integer, Integer> denominations - это Map<номинал, количество>.
-Чтобы можно было посмотреть, к какой валюте относится манипулятор, добавим геттер для currencyCode.
-Очевидно, что манипулятор никак не может функционировать без названия валюты, поэтому добавим конструктор с этим параметром и проинициализируем currencyCode.
+3. Запустим прогу и сразу первой операцией попросим INFO. Ничего не вывело? Непорядок.
+Добавь в манипулятор метод boolean hasMoney(), который будет показывать, добавлены ли какие-то банкноты или нет.
+
+4. В InfoCommand используй метод п.3. и выведи фразу "No money available.", если нет денег в банкомате.
  */

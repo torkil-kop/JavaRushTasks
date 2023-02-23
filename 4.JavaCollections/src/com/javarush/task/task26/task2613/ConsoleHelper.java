@@ -49,8 +49,7 @@ public class ConsoleHelper {
 
                 if (Integer.parseInt(ss[0]) > 0 && Integer.parseInt(ss[1]) > 0 && ss.length == 2) {
                     break;
-                }
-                else {
+                } else {
                     writeMessage("Введены некорректные числа. Введите два целых положительных числа");
                 }
             } catch (Exception e) {
@@ -59,14 +58,24 @@ public class ConsoleHelper {
         }
         return ss;
     }
+
+    public static Operation askOperation() {
+        while (true) {
+            ConsoleHelper.writeMessage("Выберите операцию 1-4...");
+            try {
+                int operationNumber = Integer.parseInt(ConsoleHelper.readString());
+                return Operation.getAllowableOperationByOrdinal(operationNumber);
+
+            } catch (Exception e) {
+                ConsoleHelper.writeMessage("Выбрана недоступная операция");
+            }
+        }
+    }
 }
 /*
-3. Чтобы считать номинал и количество банкнот, добавим статический метод String[] getValidTwoDigits(String currencyCode) в ConsoleHelper.
-Этот метод должен предлагать пользователю ввести два целых положительных числа.
-Первое число - номинал, второе - количество банкнот.
-Никаких валидаторов на номинал нет. Т.е. 1200 - это нормальный номинал.
-Если данные некорректны, то сообщить об этом пользователю и повторить.
-
-Пример вводимых данных:
-200 5
+2. В классе ConsoleHelper реализуй логику статического метода Operation askOperation().
+Спросить у пользователя операцию.
+Если пользователь вводит 1, то выбирается команда INFO, 2 - DEPOSIT, 3 - WITHDRAW, 4 - EXIT;
+Используй метод, описанный в п.1.
+Обработай исключение - запроси данные об операции повторно.
  */
