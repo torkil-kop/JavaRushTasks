@@ -1,20 +1,33 @@
 package com.javarush.task.task26.task2613.command;
 
+import com.javarush.task.task26.task2613.CashMachine;
 import com.javarush.task.task26.task2613.ConsoleHelper;
 import com.javarush.task.task26.task2613.CurrencyManipulator;
 import com.javarush.task.task26.task2613.CurrencyManipulatorFactory;
+import com.javarush.task.task26.task2613.exception.InterruptOperationException;
 
-class DepositCommand implements Command{
+import java.util.ResourceBundle;
 
-     @Override
-     public void execute() {
-         String currencyCode = ConsoleHelper.askCurrencyCode();
-         String[] currencyCodeInfo = ConsoleHelper.getValidTwoDigits(currencyCode);
-         CurrencyManipulator currencyManipulator = CurrencyManipulatorFactory.getManipulatorByCurrencyCode(currencyCode);
-         currencyManipulator.addAmount(Integer.parseInt(currencyCodeInfo[0]), Integer.parseInt(currencyCodeInfo[1]));
+class DepositCommand implements Command {
+    private ResourceBundle res = ResourceBundle.getBundle(CashMachine.RESOURCE_PATH + "deposit");
 
-     }
- }
+    @Override
+    public void execute() throws InterruptOperationException {
+        ConsoleHelper.writeMessage(res.getString("before"));
+        String currencyCode = ConsoleHelper.askCurrencyCode();
+        try {
+            String[] currencyCodeInfo = ConsoleHelper.getValidTwoDigits(currencyCode);
+            CurrencyManipulator currencyManipulator = CurrencyManipulatorFactory.getManipulatorByCurrencyCode(currencyCode);
+            currencyManipulator.addAmount(Integer.parseInt(currencyCodeInfo[0]), Integer.parseInt(currencyCodeInfo[1]));
+            ConsoleHelper.writeMessage(res.getString("success.format"));
+        } catch (NumberFormatException e) {
+    ConsoleHelper.writeMessage(res.getString("invalid.data"));
+        }
+
+
+
+    }
+}
 /*
 Пора привести в порядок наш main, уж очень там всего много, чего не должно быть.
 
